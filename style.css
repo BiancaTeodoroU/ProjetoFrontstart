@@ -61,6 +61,10 @@ header .container {
     padding: 0 100px;
 }
 
+header .container img {
+    display: none;
+}
+
 header .container h1 {
     color: var(--pink);
 }
@@ -84,9 +88,57 @@ nav img {
     height: 45px;
 }
 
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
 nav ul a {
-    font-size: 22px;
+    font-size: 20px;
     color: var(--pink);
     text-decoration: none;
     margin: 0 35px;
+}
+
+section {
+    height: 1500px;
+}
+
+/* Responsividade */
+
+/* Tablet */
+@media (max-width: 767px) {
+    header .container {
+        width: 100%;
+    }
+
+    header .container img {
+        display: inline;
+        margin-bottom: 70px;
+    }
+
+    nav {
+        padding: 0 30px;
+    }
+
+    nav img {
+        display: none;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+    
+    nav ul a {
+        font-size: 16px;
+    }
+}
+
+/* Celular */
+
+@media (max-width: 480px) {
+    header .container {
+        padding: 0 40px;
+    }
 }
