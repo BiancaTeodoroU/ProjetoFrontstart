@@ -113,24 +113,22 @@ section {
 
 /* Small desktops */
 @media (max-width: 1000px) {
-
     header .container {
         width: 100%;
     }
 
-    nav {
-        padding: 0 30px;
-    }
-
     nav ul a {
         font-size: 18px;
+    }
+
+    nav {
+        padding: 0 30px;
     }
 }
 
 
 /* Tablet */
 @media (max-width: 767px) {
-
     header .container img {
         display: inline;
         margin-bottom: 70px;
@@ -152,7 +150,6 @@ section {
 /* Celular */
 
 @media (max-width: 480px) {
-
     header .container {
         padding: 0 40px;
     }
