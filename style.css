@@ -49,6 +49,10 @@ button {
     font-size: 18px;
 }
 
+.title-pink {
+    color: var(--pink);
+}
+
 header {
     height: calc(100vh - var(--menu-height));
     display: flex;
@@ -63,10 +67,6 @@ header .container {
 
 header .container img {
     display: none;
-}
-
-header .container h1 {
-    color: var(--pink);
 }
 
 header .container button {
@@ -105,9 +105,25 @@ nav ul a svg {
     display: none;
 }
 
-section {
-    height: 1500px;
+.about-me {
+    display: flex;
+    padding: 100px;
 }
+
+.about-me .container {
+    width: 50%;
+    padding-right: 50px;
+}
+
+.about-me .img-container  {
+    width: 50%;
+    text-align: center;
+}
+
+.about-me .img-container img {
+    width: 60%;
+}
+
 
 /* Responsividade */
 
@@ -155,6 +171,10 @@ section {
     }
 
     nav {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        top: unset;
         padding: 0 15px;
     }
 
