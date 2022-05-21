@@ -53,6 +53,10 @@ button {
     color: var(--pink);
 }
 
+.title-purple {
+    color: var(--purple-dark);
+}
+
 header {
     height: calc(100vh - var(--menu-height));
     display: flex;
@@ -144,6 +148,59 @@ nav ul a svg {
     color: var(--purple);
 }
 
+.services {
+    text-align: center;
+    margin: 150px 0;
+    padding: 0 500px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    margin: 35px auto 0;
+    max-width: 1200px;
+}
+
+.services .services-container .service-card {
+    max-width: 360px;
+    background: #2F3034;
+    border: 1px solid var(--purple-dark);
+    border-radius: 16px;
+    padding: 40px 25px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.services .services-container .service-card img {
+    margin-bottom: 40px;
+    width: 90px;
+}
+
+.portfolio {
+    padding: 0 100px;
+    text-align: center;
+    margin-bottom: 100px;
+    background: url(assets/Rectangle\ 1.png);
+}
+
+.portfolio .portfolio-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 60px auto 0;
+}
+
+.portfolio .portfolio-container .portfolio-card {
+    background: radial-gradient(100% 100% at 0% 0%, rgba(255, 255, 255, 0.33) 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(42px);
+    border: 1px solid white;
+}
+
+
 /* Responsividade */
 
 /* Small desktops */
@@ -174,6 +231,10 @@ nav ul a svg {
 
     .about-me .img-container {
         margin: 70px 0;
+    }
+
+    .services {
+        padding: 0;
     }
 }
 
@@ -225,5 +286,13 @@ nav ul a svg {
 
     .about-me {
         padding: 40px;
+    }
+
+    .services {
+        margin: 70px 0;
+    }
+
+    .services .services-container {
+        padding: 0 20px;
     }
 }
