@@ -471,12 +471,12 @@ footer {
     .portfolio {
         margin: 100px 0 50px;
     }
-
+    
     .curriculo {
-        padding: 0 20px;
+        padding: 0 15px;
     }
 
     .curriculo .container .content .curriculo-info {
-        padding: 0 15px;
+        padding: 0 20px;
     }
 }
