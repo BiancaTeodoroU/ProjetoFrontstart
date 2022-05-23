@@ -303,7 +303,7 @@ p {
 
 .curriculo .container .content .curriculo-info {
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 100px auto;
     grid-gap: 1rem;
     margin-bottom: 50px;
 }
