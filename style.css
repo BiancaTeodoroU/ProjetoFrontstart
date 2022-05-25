@@ -168,7 +168,7 @@ nav ul a svg {
 
 .about-me .img-container .line.purple {
     transform: rotate(-3.3deg);
-    color: var(--purple);
+    color: var(--pink);
 }
 
 .services {
