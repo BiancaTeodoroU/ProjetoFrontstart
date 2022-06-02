@@ -4,13 +4,14 @@
 
 :root {
     --pink: #FFC2D9;
-    --pink-clear: #FDF5F2;
-    --purple: #D1C4E9;
+    --pink-clear: #ff6f9c;
+    --purple: #bf40bf;
     --purple-dark: #5280E2;
     --bg-dark: #212226;
     --light-grey: #E0DEDE;
     --green: #15CDCB;
     --medium-grey: #2F3034;
+    --blue-dark: #363b96;
 
     --menu-height: 75px;
 }
@@ -159,7 +160,7 @@ nav ul a svg {
 .about-me .img-container .line {
     width: calc(60% + 50px);
     height: calc(100% + 50px);
-    border: 1px solid var(--purple-dark);
+    border: 1px solid var(--purple);
 
     position: absolute;
     top: -25px;
@@ -168,7 +169,12 @@ nav ul a svg {
 
 .about-me .img-container .line.purple {
     transform: rotate(-3.3deg);
-    border: 1px solid var(--green);
+    border: 1px solid var(--pink-clear);
+}
+
+.about-me .img-container .line.blue {
+    transform: rotate(-5.8deg);
+    border: 1px solid var(--blue-dark);
 }
 
 .services {
