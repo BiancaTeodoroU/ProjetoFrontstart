@@ -227,40 +227,40 @@
         orders: {}
       };
     </script>
-  <script type="text/javascript">
-    var _support = _support || { 'ui': {}, 'user': {} };
-    _support.outbounds = _support.outbounds || [];
-    _support.outbounds.push({
-      id: "56152",
-      name: "Pop-up  - P&#225;gina de blog sobre produtos financeiros Com o seu score calculado, voc&#234; descobre o produto financeiro ideal para voc&#234;! Consulte gr&#225;tis agora.",
-      message: "Com o seu score calculado, voc&#234; descobre o produto financeiro ideal para voc&#234;! Consulte gr&#225;tis agora.",
-      sound: true,
-      transient: false,
-      botsEnabled: true,
-      enableCustomFields: false,
-      disableCueClick: false,
-      user: {
-        type: "brand"
-      },
-      buttons: [
-        {
-          text: "Consultar gr&#225;tis",
-          url: "https://www.foregon.com/consulta-score-de-credito-gratis/?utm_source=foregon&utm_medium=chatbot&utm_campaign=campanha_aquisicao_sem-segmentacao_chatbot&utm_term=cta-01&utm_content=produto-interno_score",
+    <script type="text/javascript">
+      var _support = _support || { 'ui': {}, 'user': {} };
+      _support.outbounds = _support.outbounds || [];
+      _support.outbounds.push({
+        id: "56136",
+        name: "Helen - Consulte seu CPF gr&#225;tis",
+        message: "Consulte seu CPF gr&#225;tis e descubra seu score de cr&#233;dito agora mesmo!\n",
+        sound: true,
+        transient: false,
+        botsEnabled: true,
+        enableCustomFields: false,
+        disableCueClick: false,
+        user: {
+          type: "brand"
         },
-        {
-          text: "Quero saber mais",
-          response: true
-        },
-      ],
-      rules: [
-        {
-          type: "timeOnSite",
-          op: "greaterThan",
-          value: "25s",
-        },
-      ],
-    });
-  </script>
+        buttons: [
+          {
+            text: "Consultar gr&#225;tis",
+            url: "https://www.foregon.com/consulta-score-de-credito-gratis/?utm_source=foregon&utm_medium=chatbot&utm_campaign=campanha_aquisicao_sem-segmentacao_chatbot&utm_term=cta-01&utm_content=produto-interno_score",
+          },
+          {
+            text: "Quero saber mais",
+            response: true
+          },
+        ],
+        rules: [
+          {
+            type: "timeOnSite",
+            op: "greaterThan",
+            value: "25s",
+          },
+        ],
+      });
+    </script>
 
     <script>
       feather.replace();
