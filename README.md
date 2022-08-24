@@ -7,4 +7,4 @@
 
 * Utilização de grid;
 * Utilização de Flexbox;
-* Utilização de position e entre outros comandos.
+* Utilização de position e entre outras propriedades css.
